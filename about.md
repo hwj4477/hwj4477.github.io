@@ -8,9 +8,9 @@ header-img: "img/home-bg.jpg"
 # Profile
 -	Woojeong Hong (1986. 8. 17)
 - Developer
-- [More About me](http://home.wjhong.pe.kr)
+- More About me : [Homepage](http://home.wjhong.pe.kr "Homepage")
 
-# interest
+# Interest
 - iOS & Swift
 - Android
 - Ruby & Ruby on rails
@@ -19,6 +19,6 @@ header-img: "img/home-bg.jpg"
 - Raspberry pi
 - MongoDB
 
-# hobby
+# Hobby
 - pc & mobile game
 - tennis
