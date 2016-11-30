@@ -5,10 +5,18 @@
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <ul class="list-inline text-center">
                     <li>
-                        <a href="{{ "/feed.xml" | prepend: site.baseurl }}">
+                        <a href="http://home.wjhong.pe.kr" target="_blank">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                                <i class="fa fa-home fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:hwj4477@gmail.com">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
                             </span>
                         </a>
                     </li>
@@ -42,32 +50,14 @@
                         </a>
                     </li>
                     {% endif %}
-					{% if site.github_username == "projectpages" %}
                     <li>
-                        <a href="https://github.com/projectpages/project-pages/issues">
+                        <a href="{{ "/feed.xml" | prepend: site.baseurl }}">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-exclamation fa-stack-1x fa-inverse"></i>
+                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
                             </span>
                         </a>
                     </li>
-		    <li>
-                        <a href="https://github.com/projectpages/project-pages/wiki/">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-info fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/projectpages/project-pages/fork">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-code-fork fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    {% endif %}				
                 </ul>
                 <p class="copyright text-muted">Copyright (c) 2016 wjhong All Rights Reserved.</p>
             </div>
