@@ -1,0 +1,10 @@
+---
+layout:     post
+title:      Test Post
+author:     wjhong
+tags: 		test
+subtitle:  	This is test post.
+category:  test
+---
+
+# Test Post
