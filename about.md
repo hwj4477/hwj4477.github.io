@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "About"
-description: "about me & this blog"
+description: "about me"
 header-img: "img/home-bg.jpg"
 ---
 
