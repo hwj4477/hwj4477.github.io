@@ -6,8 +6,9 @@ header-img: "img/home-bg.jpg"
 ---
 
 # Profile
--	Woojeong Hong (1986. 8. 17)
+- Woojeong Hong (1986. 8. 17)
 - Developer
+- Gwanak-gu, Seoul, Korea
 - More About me : [Homepage](http://home.wjhong.pe.kr "Homepage")
 
 # Interest
