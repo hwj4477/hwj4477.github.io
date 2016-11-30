@@ -21,5 +21,5 @@ header-img: "img/home-bg.jpg"
 - MongoDB
 
 # Hobby
-- pc & mobile game
-- tennis
+- PC & Mobile game
+- Tennis
