@@ -8,6 +8,7 @@ category:   Go
 ---
 
 # GVM (Go Version Manager)
+
 프로그래밍 언어인 Go의 버전 관리자다.
 
 그 동안 Go를 [HomeBrew](http://brew.sh/index_ko.html)를 통해 설치해서 사용하고 있었으나, 좀 더 편리한 버전 관리를 위해 GVM을 사용해 보려 한다.<br />
@@ -17,13 +18,15 @@ Ruby의 [RVM](https://rvm.io/)과 비슷한 형식으로 비슷한 기능을 제
 아래 내용은 'macOS' 기준으로 작성되었다.
 
 # 설치
-### Install GVM
+### Install GVM 
+
 ``` shell
 bash < <(curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer)
 ```
 위의 명령어를 통해 스크립트를 실행해 주면 바로 설치가 완료된다.
 
 ### Install Go
+
 ``` shell
 gvm install go1.7
 ```
@@ -39,6 +42,7 @@ brew install mercurial
 ```
 
 ### 설치 확인
+
 GOPATH 설정을 따로 하지 않아도 정상적으로 동작하는 걸 확인 할 수 있다.
 ``` shell
 echo $GOPATH
@@ -54,15 +58,18 @@ gvm gos (installed)
 ```
 
 # 패키지 관리
+
 GVM은 패키지 관리 기능을 제공한다.<br />
 RVM이 Ruby 버전별로 의존성을 가지는 라이브러리(Gem)들을 따로 관리 해주는 것과 비슷하다.
 
 ### 생성
+
 ``` shell
 gvm pkgset create go-global
 ```
 
 ### 확인
+
 ``` shell
 gvm pkgset list
 
@@ -73,6 +80,7 @@ gvm pkgset list
 위에서 생성한 'go-global' 패키지도 확인 가능하다.
 
 ### 설정
+
 ``` shell
 gvm pkgenv go-global
 
@@ -101,6 +109,7 @@ export PKG_CONFIG_PATH; PKG_CONFIG_PATH="${GVM_OVERLAY_PREFIX}/lib/pkgconfig:${P
 pkgenv 명령어를 통해 해당 패키지를 설정 할 수 있다.
 
 ### 사용
+
 ``` shell
 gvm pkgset use go-global --default
 Now using version go1.7@go-global
@@ -114,6 +123,7 @@ $HOME/.gvm/pkgsets/go1.7/global:$HOME/.gvm/pkgsets/go1.7/go-global
 패키지 경로는 Go 버전별, 패키지 이름 별로 나뉘기 때문에 필요에 따라 나누어 관리할 수 있다.
 
 # TODO
+
 - RVM과 비슷하겠거니~~~ 생각하고 있지만, 실제로 버전 업데이트 할 때 마다 불편함은 없는지 확인해 볼 생각
 - Go언어를 통한 API서버 구현
 
