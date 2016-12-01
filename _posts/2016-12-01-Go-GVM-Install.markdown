@@ -46,20 +46,19 @@ brew install mercurial
 
 ```
 
-### 설치 확인
-별도의 GOPATH 설정이 필요 없다. 명령어를 통해 아래와 같이 설치를 확인할 수 있다. <br />
+### 설치 확인 
 ``` shell
-
-echo $GOPATH
-$HOME/.gvm/pkgsets/go1.7/
-
----------------------------
 
 gvm list
 gvm gos (installed)
 
    go1.4
 => go1.7
+
+---------------------------
+
+echo $GOPATH
+$HOME/.gvm/pkgsets/go1.7/
 
 ```
 
