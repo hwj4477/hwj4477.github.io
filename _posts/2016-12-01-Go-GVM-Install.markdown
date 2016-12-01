@@ -20,13 +20,17 @@ Ruby의 [RVM](https://rvm.io/)과 비슷한 형식으로 비슷한 기능을 제
 
 ### Install GVM
 ``` shell
+
 bash < <(curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer)
 ```
+
 위의 명령어를 통해 스크립트를 실행해 주면 바로 설치가 완료된다.
 
 ### Install Go
 ``` shell
+
 gvm install go1.7
+
 ```
 gvm 명령어를 통해 Go를 설치할 수 있다.
 
@@ -34,14 +38,17 @@ gvm 명령어를 통해 Go를 설치할 수 있다.
 혹시 위의 명령어로 바로 설치가 안된다면 아래 내용을 확인 후 시도해보면 된다.
 
 ``` shell
+
 xcode-select --install
 brew update
 brew install mercurial
+
 ```
 
 ### 설치 확인
 GOPATH 설정을 따로 하지 않아도 정상적으로 동작하는 걸 확인 할 수 있다. <br />
 ``` shell
+
 echo $GOPATH
 $HOME/.gvm/pkgsets/go1.7/
 
@@ -52,6 +59,7 @@ gvm gos (installed)
 
    go1.4
 => go1.7
+
 ```
 
 # 패키지 관리
@@ -60,21 +68,26 @@ RVM이 Ruby 버전별로 의존성을 가지는 라이브러리(Gem)들을 따�
 
 ### 생성
 ``` shell
+
 gvm pkgset create go-global
+
 ```
 
 ### 확인
 ``` shell
+
 gvm pkgset list
 
 => global
    go-global
+
 ```
 기본으로 global 패키지가 생성되어 지정되어 있다.
 위에서 생성한 'go-global' 패키지도 확인 가능하다.
 
 ### 설정
 ``` shell
+
 gvm pkgenv go-global
 
 --------------------------------------------
@@ -98,11 +111,13 @@ export PATH; PATH="/Users/wjhong/.gvm/pkgsets/go1.7/go-global/bin:${GVM_OVERLAY_
 export LD_LIBRARY_PATH; LD_LIBRARY_PATH="${GVM_OVERLAY_PREFIX}/lib:${LD_LIBRARY_PATH}"
 export DYLD_LIBRARY_PATH; DYLD_LIBRARY_PATH="${GVM_OVERLAY_PREFIX}/lib:${DYLD_LIBRARY_PATH}"
 export PKG_CONFIG_PATH; PKG_CONFIG_PATH="${GVM_OVERLAY_PREFIX}/lib/pkgconfig:${PKG_CONFIG_PATH}"
+
 ```
 pkgenv 명령어를 통해 해당 패키지를 설정 할 수 있다.
 
 ### 사용
 ``` shell
+
 gvm pkgset use go-global --default
 Now using version go1.7@go-global
 
@@ -110,6 +125,7 @@ Now using version go1.7@go-global
 
 echo $GOPATH
 $HOME/.gvm/pkgsets/go1.7/global:$HOME/.gvm/pkgsets/go1.7/go-global
+
 ```
 기본 패키지를 지정하고 나면, GOPATH 에 해당 패키지 경로가 지정 된 걸 확인할 수 있다.<br />
 패키지 경로는 Go 버전별, 패키지 이름 별로 나뉘기 때문에 필요에 따라 나누어 관리할 수 있다.
