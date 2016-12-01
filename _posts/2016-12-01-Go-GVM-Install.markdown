@@ -135,4 +135,4 @@ $HOME/.gvm/pkgsets/go1.7/global:$HOME/.gvm/pkgsets/go1.7/go-global
 - Go언어를 통한 API서버 구현
 
 # 참고
-- [https://github.com/moovweb/gvm](https://github.com/moovweb/gvm)
+- [github.com/moovweb/gvm](https://github.com/moovweb/gvm)
