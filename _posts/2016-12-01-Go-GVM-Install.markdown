@@ -17,6 +17,7 @@ Ruby의 [RVM](https://rvm.io/)과 비슷한 형식으로 비슷한 기능을 제
 아래 내용은 'macOS' 기준으로 작성되었다.
 
 # 설치
+
 ### Install GVM
 ``` shell
 bash < <(curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer)
