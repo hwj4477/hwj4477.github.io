@@ -50,7 +50,7 @@ brew install mercurial
 GOPATH 설정을 따로 하지 않아도 정상적으로 동작하는 걸 확인 할 수 있다. <br />
 ``` shell
 
-echo $GOPATH
+$> echo $GOPATH
 $HOME/.gvm/pkgsets/go1.7/
 
 ---------------------------
