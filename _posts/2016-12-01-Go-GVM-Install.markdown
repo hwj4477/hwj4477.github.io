@@ -22,6 +22,7 @@ Ruby의 [RVM](https://rvm.io/)과 비슷한 형식으로 비슷한 기능을 제
 ``` shell
 
 bash < <(curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer)
+
 ```
 
 위의 명령어를 통해 스크립트를 실행해 주면 바로 설치가 완료된다.
@@ -47,6 +48,13 @@ brew install mercurial
 
 ### 설치 확인
 GOPATH 설정을 따로 하지 않아도 정상적으로 동작하는 걸 확인 할 수 있다. <br />
+
+``` shell
+
+go1.4 => go1.7 
+
+```
+
 ``` shell
 
 echo $GOPATH
