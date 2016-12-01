@@ -48,13 +48,6 @@ brew install mercurial
 
 ### 설치 확인
 GOPATH 설정을 따로 하지 않아도 정상적으로 동작하는 걸 확인 할 수 있다. <br />
-
-``` shell
-
-go1.4 => go1.7 
-
-```
-
 ``` shell
 
 echo $GOPATH
