@@ -30,12 +30,12 @@ bundle install
 Gemfile 에 위와 같이 'swagger-docs' 잼을 추가한 뒤 번들러로 설치해 준다.
 
 ### Swagger Config 파일 생성
-<img src="../img/post/rails_swagger/rails_swagger_config.jpg">
+![Swagger Config]({{ site.url }}/img/post/rails_swagger/rails_swagger_config.jpg)
 정상적으로 설치가 되었으면, config/initializers/ 경로에 설정 파일을 추가해준다.(swagger_docs.rb)<br />
 api_file 경로 설정에 주의하자. 해당 경로로 Swagger json 파일이 생성된다.
 
 ### Swagger 적용
-<img src="../img/post/rails_swagger/rails_swagger_2.jpg">
+![Swagger Controller]({{ site.url }}/img/post/rails_swagger/rails_swagger_2.jpg)
 
 요청을 처리 해줄 해당 컨트롤러와 메소드에 위와 같이 Swagger 정보를 설정 해준다.<br />
 여기서는 API 버전 관리를 위해서 API::V1::UsersController를 별도로 생성했다.<br />
@@ -60,7 +60,7 @@ rake swagger:docs
 => [richhollis/swagger-docs-sample](https://github.com/richhollis/swagger-docs-sample)
 
 ### 결과
-<img src="../img/post/rails_swagger/rails_swagger_result.jpg">
+![Swagger Result]({{ site.url }}/img/post/rails_swagger/rails_swagger_result.jpg)
 
 
 # 참고
