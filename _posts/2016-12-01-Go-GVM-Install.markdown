@@ -131,8 +131,9 @@ $HOME/.gvm/pkgsets/go1.7/global:$HOME/.gvm/pkgsets/go1.7/go-global
 패키지 경로는 Go 버전별, 패키지 이름 별로 나뉘기 때문에 필요에 따라 나누어 관리할 수 있다.
 
 # TODO
-- RVM과 비슷하겠거니~~~ 생각하고 있지만, 실제로 버전 업데이트 할 때 마다 불편함은 없는지 확인해 볼 생각
+- RVM과 비슷하겠거니~~~ 생각하고 있지만, 실제로 버전 업데이트 할 때 마다 불편함은 없는지 확인해 볼 생각이다.
 - Go언어를 통한 API서버 구현
+
 
 # 참고
 - [github.com/moovweb/gvm](https://github.com/moovweb/gvm)
