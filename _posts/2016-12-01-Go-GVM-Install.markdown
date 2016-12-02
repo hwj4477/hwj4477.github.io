@@ -46,7 +46,7 @@ brew install mercurial
 
 ```
 
-### 설치 확인 
+### 설치 확인
 ``` shell
 
 gvm list
@@ -130,9 +130,6 @@ $HOME/.gvm/pkgsets/go1.7/global:$HOME/.gvm/pkgsets/go1.7/go-global
 기본 패키지를 지정하고 나면, GOPATH 에 해당 패키지 경로가 지정 된 걸 확인할 수 있다.<br />
 패키지 경로는 Go 버전별, 패키지 이름 별로 나뉘기 때문에 필요에 따라 나누어 관리할 수 있다.
 
-# TODO
-- RVM과 비슷하겠거니~~~ 생각하고 있지만, 실제로 버전 업데이트 할 때 마다 불편함은 없는지 확인해 볼 생각이다.
-- Go언어를 통한 API서버 구현
 
 
 # 참고
