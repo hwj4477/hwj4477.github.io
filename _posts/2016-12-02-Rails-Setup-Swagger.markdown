@@ -2,7 +2,7 @@
 layout:     post
 title:      Ruby on Rails + Swagger UI
 author:     wjhong
-tags:    	  Ruby Rails Swagger API
+tags:    	ROR Swagger
 subtitle:  	Rails API 서버 Swagger UI 적용
 category:   ROR
 ---
