@@ -1,9 +1,9 @@
 ---
 layout:     post
-title:      Ruby on Rails + Swagger UI
+title:      Ruby on Rails - Swagger UI
 author:     wjhong
 tags:    	ROR Swagger
-subtitle:  	Rails API 서버 Swagger UI 적용
+subtitle:  	레일즈 Swagger UI 적용
 category:   ROR
 ---
 
@@ -21,7 +21,6 @@ Scaffolding 기능 역시 웹 프론트와 친하지 않은 나에겐 매우 편
 ``` Ruby
 # Gemfile
 gem 'swagger-docs'
-
 ```
 ``` shell
 bundle install
@@ -45,7 +44,6 @@ api_file 경로 설정에 주의하자. 해당 경로로 Swagger json 파일이 
 ``` shell
 
 rake swagger:docs
-
 
 ```
 
