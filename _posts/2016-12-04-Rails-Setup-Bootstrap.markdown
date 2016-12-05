@@ -60,5 +60,4 @@ rake assets:precompile
 
 
 # 참고
-- [richhollis/swagger-docs](https://github.com/richhollis/swagger-docs)
-- [richhollis/swagger-docs-sample](https://github.com/richhollis/swagger-docs-sample)
+- [twbs/bootstrap-sass](https://github.com/twbs/bootstrap-sass)
