@@ -50,5 +50,5 @@ MongoDB 모델(Document)의 기본적인 형태다. <br />
 Person.All, Person.save 같은 기본적인 작업은 기존 ORM 형태와 동일하기 때문에 자연스럽게 적용하여 사용할 수 있다.
 
 
-### 참고(ex)
+### 참고
 - [mongoid](https://docs.mongodb.com/ruby-driver/master/mongoid-tutorials-6.0/)
