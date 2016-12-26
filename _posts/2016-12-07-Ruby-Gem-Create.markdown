@@ -83,7 +83,7 @@ gem push gem_name-1.0.0.gem
 ![RubyGem1]({{ site.url }}/img/post/ruby_gems/rubygem_1.jpg)
 
 [rubygems.org](https://rubygems.org/) 통해 위와 같이 본인의 계정에 루비잼이 업로드 된 것을 확인할 수 있다. <br />
-gemspec 의 homepage 에 깃허브 저장소 url 을 등록하면, rubygems.org 의 해당 gem 페이지에 홈페이지 링크와 연결할 수 된다. <br />
+gemspec 의 homepage 에 깃허브 저장소 url 을 등록하면, rubygems.org 의 해당 gem 페이지에 홈페이지 링크와 연결 된다. <br />
 
 ### 사용
 
