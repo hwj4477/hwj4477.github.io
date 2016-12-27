@@ -19,12 +19,10 @@ layout: default
     </div>
 </header>
 
-
-
-
+<!-- disable side float view 
 
 {% for post in site.posts %}
-	
+
 	{% if post.title != page.title and post.author == page.author %}
 	
 	<div class="float-left">
@@ -48,6 +46,7 @@ layout: default
 	
 			{% for member in site.data.members %}
 {% if member.name == page.author %} 
+-->
 
 <hr class="style-one">
 
@@ -83,9 +82,11 @@ layout: default
 
 <!-- Also Interesting -->
 
+<!-- disable side float view 
+
 {% assign relevantpostcount = 0 %}
 {% for post in site.posts %}
-	
+
 	{% if post.title != page.title and post.title != recentpost %} 
 	{% for tag in post.tags %}
 	
@@ -146,6 +147,7 @@ layout: default
 
 		</div>
 		</div>
+-->
 
 <!-- Post Content -->
 {% include imagezoom.html %}
