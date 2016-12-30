@@ -20,7 +20,8 @@ category:   Tool
 여담이지만, Sierra 버전이 나오면서 OS X 에서 macOS로 이름이 바뀌었다.<br />
 (덕분에 OS 엑스 라고 읽는 부끄러운 일이 없어질 것 같다......)
 
-### [Sip](https://itunes.apple.com/kr/app/sip/id507257563?mt=12)
+
+# [Sip](https://itunes.apple.com/kr/app/sip/id507257563?mt=12)
 ![Sip]({{ site.url }}/img/post/tools/sip.jpg)<br />
 
 ColorPicker? 라고 생각하면 된다. 스크린상의 원하는 색상값을 클릭하면 해당 색상값을 클립보드에 복사 해준다.<br />
@@ -32,7 +33,8 @@ ColorPicker? 라고 생각하면 된다. 스크린상의 원하는 색상값을 
 Pro 버전도 있어서 추가적인 기능을 제공하는 듯 한데, 아직 Pro 버전까지는 사용해보지 않았다.<br />
 그냥 색상값만 찍어봐도 충분하다.
 
-### [CocoaRestClient](http://mmattozzi.github.io/cocoa-rest-client/)
+
+# [CocoaRestClient](http://mmattozzi.github.io/cocoa-rest-client/)
 ![CocoaRestClient]({{ site.url }}/img/post/tools/cocoarest.jpg)<br />
 
 HTTP 요청을 테스트해볼 수 있는 클라이언트이다.<br />
@@ -41,7 +43,8 @@ HTTP 요청을 테스트해볼 수 있는 클라이언트이다.<br />
 
 개인적으로는 Swagger UI 페이지가 더 편하긴 한거 같다. 그래도 자주는 아니어도 가끔 사용하게 된다.
 
-### [Sequel Pro](https://www.sequelpro.com/)
+
+# [Sequel Pro](https://www.sequelpro.com/)
 ![Sequel Pro]({{ site.url }}/img/post/tools/sequelpro.jpg)<br />
 
 MySQL 관리 툴이다.<br />
@@ -53,7 +56,8 @@ MySQL 관리 툴이다.<br />
 원격 접속 서버 리스트를 편집할 수 있다.<br />
 혹시 여러개의 DB 서버를 관리해야 한다면, 더욱 유용할 것 같다.
 
-### [SQLPro for SQLite](https://itunes.apple.com/kr/app/sqlpro-for-sqlite-read-only/id635299994?mt=12)
+
+# [SQLPro for SQLite](https://itunes.apple.com/kr/app/sqlpro-for-sqlite-read-only/id635299994?mt=12)
 ![SQLPro for SQLite]({{ site.url }}/img/post/tools/sqlpro.jpg)<br />
 
 이번엔 SQLite 관리 툴이다.<br />
@@ -67,7 +71,8 @@ MySQL 관리 툴이다.<br />
 무료를 원한다면 오픈소스인 [Sqlitebrowser](http://sqlitebrowser.org/)도 있다.<br />
 그러나, 개인적으론 UI 도 깔끔하고 해서 'SQLPro for SQLite'를 추천한다.
 
-### [HotKey App](https://itunes.apple.com/kr/app/hotkey-app/id975890633?mt=12)
+
+# [HotKey App](https://itunes.apple.com/kr/app/hotkey-app/id975890633?mt=12)
 ![HotKey App]({{ site.url }}/img/post/tools/hotkeyapp.jpg)<br />
 
 개발용 툴이라고 하기엔 조금 다른 App이다. 단축키 사용을 도와주는 유틸이다.<br />
