@@ -58,7 +58,8 @@ brew cask install google-chrome
 
 Homebrew 통해 사용하고 있는 패키지들을 묶어 관리할 수 있도록 해주는 확장 기능이다.<br />
 
-Ruby, 특히 Rails 프로젝트를 접한 경험이 있다면 Gemfile 을 알고 있을 것이다. Ruby 의 번들러와 마찬가지로 Brewfile(Ruby Gem의 Gemfile) 에 나열한 패키지들의 설치 및 버전 관리가 가능하다.<br />
+Ruby, 특히 Rails 프로젝트를 접한 경험이 있다면 Gemfile 을 알고 있을 것이다. Ruby 의 번들러와 마찬가지로 Brewfile(=Ruby Gem의 Gemfile) 에 나열한 패키지들의 설치 및 버전 관리가 가능하다.<br />
+
 Homebrew Bundle 을 활용해서 macOS 기본 개발환경 설정을 간편하게 할 수 있도록 관리 중이다.<br />
 
 ### 1. Get Homebrew Bundle (설치)
