@@ -73,7 +73,9 @@ Cask 설정과 비슷하다.<br />
 Brewfile 을 작성 한다. 현재 사용중인 패키지들을 brew 'package' 의 형태로 한줄 씩 나열하여 작성하면 된다.<br />
 
 아래는 필자가 사용하고 있는 Brewfile 이다. Cask 를 활용해 macOS 어플리케이션도 함께 작성되어 있다.<br />
+
 ``` ruby
+
 #
 # Brewfile
 #
