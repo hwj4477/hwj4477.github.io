@@ -1,9 +1,9 @@
 ---
 layout:     post
-title:      React Native - 1
+title:      React Native - 소개, 설정
 author:     wjhong
 tags:    	ReactNative React
-subtitle:   React Native - 소개, 환경 설정
+subtitle:   React Native - 개발 환경 설정
 category:   ReactNative
 ---
 
@@ -37,7 +37,7 @@ category:   ReactNative
 React는 Facebook에서 만들고 있는 뷰(MVC 에서의 View)에 해당하는 부분을 컴포넌트로 만들기 위한 라이브러리이다.<br />
 
 특징으로는 Virtual DOM 이라는 구조체를 가지고 있으며, 해당 구조체의 전후 상태를 비교하여 변경이 필요한 최소한의 요소만 반영한다. (성능상의 이점)<br />
-또, JSX(Javasctipy + XML) 라는 확장 마크업 언어를 통해 자바스크립트 코드 안에 XML 스타일의 구문을 작성할 수 있다.<br />
+또, JSX(Javascript + XML) 라는 확장 마크업 언어를 통해 자바스크립트 코드 안에 XML 스타일의 구문을 작성할 수 있다.<br />
 
 React Native는 위에서 설명한 React의 UI 작성 접근 방법을 모바일로 확장하는 라이브러리이다.<br />
 기존의 웹앱(하이브리드앱)에서와 다르게 웹뷰를 통한 인터페이스 구축이 아닌, 네이티브 위젯으로 인터페이스를 구현하는 방식이다. (직접 확인해보진 못했다.) <br />
