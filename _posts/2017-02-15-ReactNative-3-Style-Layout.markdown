@@ -3,7 +3,7 @@ layout:     post
 title:      React Navive - StyleSheet, Layout
 author:     wjhong
 tags:    	ReactNative React
-subtitle:   React Native - 리액트 레이아웃 작성
+subtitle:   React Native - 레이아웃 작성
 category:   ReactNative
 ---
 
